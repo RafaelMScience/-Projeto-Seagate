@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Servicos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    app:srcCompat="@drawable/seagate_appproposal_14" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textAlignment="center"
+                    android:text="Nós podemos recuperar os seus arquivos, se precisar"
+                    android:textColor="@color/colorTextGreen"
+                    android:textSize="16sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="Planos de serviço de recuperação de dados Recue"
+                    android:textColor="@color/colorTextSomb" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/colorTextSomb"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="Proteja o seu ativo mais precioso: seus dados! Os planos de recuperação de dados Rescue  ajudam você a eliminar o alto custo da recuperação de dados em caso de perda acidental de dados, oferecendo total tranquilidade."
+                    android:textColor="@color/colorTextGreen"
+
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/colorTextSomb"
+                    android:paddingBottom="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:text="Para pequenas empresas"
+                        android:textColor="@color/colorTextSomb"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:text="Geralmente, as pequenas empresas dependem do NAS, mas, às vezes, precisam apenas de um serviço de recuperação que também possa ser completamente confiável. Quando usar RAID não for uma boa opção e você precisar recuperar os seus dados, vá de IronWolf Pro. O IronWolf Pro é o primeiro a incluir um plano de serviço de recuperação de dados Rescue de 2 anos, além da garantia padrão de 5 anos no próprio disco."
+                        android:textColor="@color/colorTextGreen"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorTextSomb"
+                android:paddingBottom="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:text="Para profissionais criativos e de PC"
+                        android:textColor="@color/colorTextSomb"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="O BarraCuda Pro é o disco rígido de confiança mais procurado com uma garantia padrão de 5 anos que oferece as velocidades de rotação mais altas da categoria de 7.200 RPM em até 10 TB de capacidade. Além disso, um plano de serviço de recuperação de dados Rescue de 2 anos também é incluído, tornando o BarraCuda Pro uma opção fantástica para profissionais criativos e usuários de PC de alto desempenho."
+                        android:textColor="@color/colorTextGreen"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/colorTextSomb"
+                    android:paddingBottom="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop=" 5dp"
+                        android:text="Sobre o plano Rescue"
+                        android:textColor="@color/colorTextSomb"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:text="Os planos de serviço de recuperação de dados Rescue oferecem acesso a uma equipe global dos melhores especialistas em recuperação de dados do mundo com uma taxa de 95% de satisfação de clientes.¹ Compre e registre um disco BarraCuda Pro ou IronWolf Pro para ativar o plano Rescue e ter cobertura de 2 anos. Opções de cobertura estendida disponíveis durante o registro"
+                        android:textColor="@color/colorTextGreen"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/colorTextSomb"
+                    android:paddingBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="¹Os planos de serviço de recuperação de dados Rescue não estão disponíveis em todos os países. Entre em contato com seu representante de vendas da Seagate para saber mais detalhes."
+                    android:textColor="@color/colorTextGreen"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

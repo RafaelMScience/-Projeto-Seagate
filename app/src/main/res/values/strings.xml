@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProjetoS - Beta</string>
+    <string name="title_activity_main">Seagate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="HDD_Versateis"><b>HDD Versáteis</b> - HDD versáteis para todas as suas necessidades relativa a PC, oferecendo excelência líder do setor em computação pessoal </string>
+    <string name="HDD_Servidor"><b>HDD Versáteis</b> - HDD versáteis para todas as suas necessidades relativa a PC, oferecendo excelência líder do setor em servidores de pequeno porte </string>
+    <string name="HDD_Vigilancia"><b>HDD Versáteis</b> - HDD versáteis para todas as suas necessidades relativa a PC, oferecendo excelência líder do setor em vigilância eletrônica </string>
+
+    <!--descricao-->
+    <string name="HDD_Barracuda">O <b>BarraCuda</b> lidera o setor de HDs com as mais altas capacidades para desktops e computadores móveis. Com discos disponíveis de ate 10 TB, o portfólio do <b>BarraCuda</b> é um ótima opção para upgrades em qualquer faixa de preço. Com velocidades de rotação de 7.200 RPM para proporcionar um desempenho e tempos de carregamento incrivelmente rápidos para jogos ou execução de cargas de trabalho pesadas. </string>
+    <string name="HDD_Ironwolf">Para todos os aspectos do NAS existe o <b>IronWolf</b>. Sempre ativo e sempre trabalhand, o IronWolf é aprimorado com a tecnologia <b>AgileArray</b> para garantir confiabilidade otimizada e agilidade do sistema. A tecnologia multiusuários e taxas de carga de trabalho extremas possibilitam que o <b>IronWolf</b> funcione e cresça junto com a sua empresa. </string>
+    <string name="HDD_Skyhawk">O <b>SkyHawk</b> ajuda a minimizar a perda de quadros e o tempo de inatividade com uma taxa de carga de trabalho 3 vezes mais alta do que a dos discos para desktop, suportando <b>até 64 câmeras HD</b> e com capacidades de até 10TB e firmeware avançado <b>ImagePerfect</b>. </string>
+
+    <string name="duvidas">
+        <a href="https://www.seagaterescue.com/faq">Perguntas frequentes?</a>
+    </string>
+</resources>
